@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "gujKz5lI1gZDbtcPEfQgY"
+uri = "file://artifacts/win-ridge/public/hero.png"
+type = "image"
+title = "Hero background image"
+
+[[generated]]
+id = "kpFwTSNMaxqE8QOBWg7Cs"
+uri = "file://artifacts/win-ridge/public/architecture.png"
+type = "image"
+title = "Architecture division image"
+
+[[generated]]
+id = "J5mxQPgrBXmNG_sIQBGzB"
+uri = "file://artifacts/win-ridge/public/education.png"
+type = "image"
+title = "Education division image"
+
+[[generated]]
+id = "XLdUy8y0BVFZMXCmnxoUn"
+uri = "file://artifacts/win-ridge/public/real-estate.png"
+type = "image"
+title = "Real Estate division image"
+
+[[generated]]
+id = "6bOhztSdJEDYv_KbrmJYK"
+uri = "file://artifacts/win-ridge/public/team.png"
+type = "image"
+title = "Leadership Team background"
+
+[[generated]]
+id = "fSeGxcR-Qn_d8_zjQMPDe"
+uri = "file://artifacts/win-ridge/public/trust.png"
+type = "image"
+title = "Trust and Social Services image"

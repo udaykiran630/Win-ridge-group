@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "WIN RIDGE Group"
+version = "1.0.0"
+id = "artifacts/win-ridge"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19280
+
+[services.development]
+run = "pnpm --filter @workspace/win-ridge run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/win-ridge", "run", "build" ]
+publicDir = "artifacts/win-ridge/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19280"
+BASE_PATH = "/"

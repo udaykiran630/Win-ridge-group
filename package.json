@@ -1,0 +1,14 @@
+{
+  "name": "win-ridge-enterprise-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix \"Win-Ridge-Enterprise-main/artifacts/win-ridge\"",
+    "build": "npm run build --prefix \"Win-Ridge-Enterprise-main/artifacts/win-ridge\"",
+    "serve": "npm run serve --prefix \"Win-Ridge-Enterprise-main/artifacts/win-ridge\"",
+    "typecheck": "npm run typecheck --prefix \"Win-Ridge-Enterprise-main/artifacts/win-ridge\""
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0"
+  }
+}
